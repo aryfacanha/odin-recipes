@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(45deg, #6B789B, #ad9ab3, #D2C1D1,#BCC3DD);
+    background-repeat: no-repeat;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    font-size: 1.2em;
+}
+
+a:visited, 
+a:active, 
+a:visited,
+a:link {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(224, 106, 106);
+}
+
+h2 {
+    color: rgb(141, 209, 150);
+}
