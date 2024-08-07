@@ -1,5 +1,11 @@
-html{
-    height: 100%;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 100%;
 }
 
 body {
@@ -10,6 +16,7 @@ body {
 
 li{
     font-size: 1.2em;
+    text-align: left;
 }
 
 a:visited, 
@@ -26,8 +33,35 @@ a:hover {
 
 h1 {
     color: rgb(224, 106, 106);
+    text-align: center;
 }
 
 h2 {
+    text-align: center;
     color: rgb(141, 209, 150);
+}
+
+.centered-list {
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+}
+
+.main-card {
+    background-color: rgb(250, 244, 244);
+    border-radius: 10px;
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
